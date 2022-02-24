@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+.all {
+    width:100%;
+    box-sizing:border-box;
+    background-color: #5d0ce0;
+    position: static;
+    text-size-adjust: 100%;
+    display: block;
+    
+}
+.containers {
+    /* max-width:1900px; */
+    margin:0 auto;    
+    padding-top: 120px;
+    padding-bottom: 120px; 
+    background-color: blue;
+} 
+@media (min-width: 2180px){.containers{
+    max-width:1920px;}.text{
+        font-size: 90px;}.text p{
+            font-size: 35px;}}
+@media screen and (max-width: 2180px){.containers{
+    max-width:1860px;}.link{
+        max-width: 455px; max-height: 455px;}.text{
+            font-size: 90px;}.text p{
+                font-size: 35px;}}
+@media (max-width: 2040px){.containers{
+    max-width:1720px;}.link{
+        max-width: 420px; max-height: 420px;}.text{
+            font-size: 75px;}.text p{
+                font-size: 28px;}} 
+@media (max-width: 1900px){.containers{
+    max-width:1580px;}.link{
+        max-width: 385px; max-height: 385px;}.text{
+            font-size: 65px;}.text p{
+                font-size: 25px;}}
+@media (max-width: 1760px){.containers{
+    max-width:1440px;}.link{
+        max-width: 349px; max-height: 349px;}.text{
+            font-size: 65px;}.text p{
+                font-size: 25px;}}
+@media (max-width: 1620px){.containers{
+    max-width:1300px;}.link{
+        max-width: 315px; max-height: 315px;}.text{
+            font-size: 50px;}.text p{
+                font-size: 18px;}}
+@media (max-width: 1480px){.containers{ 
+    max-width:1160px;}.link{
+        max-width: 280px; max-height: 280px;}.text{
+            font-size: 50px;}.text p{
+                font-size: 18px;}} 
+@media (max-width: 1239px){.containers{
+    max-width:940px;}.link{
+        max-width: 315px; max-height: 315px;}.text{
+            font-size: 50px;}.text p{
+                font-size: 18px;}}
+@media (max-width: 1023px){.containers{
+    max-width:750px;}.link{
+        max-width: 200px; max-height: 200px;}.text{
+            font-size: 50px;}.text p{
+                font-size: 18px;}}
+@media (max-width: 767px){.containers{
+    max-width:100%;
+    padding:0 20px}}
+
+
+
+    
+.text {
+    text-align: center; 
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 600;
+    font-size-adjust: 100%;
+    font-stretch: normal;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 9px;
+    margin-right: 50px;
+    margin-left: 50px; 
+}
+.text p {
+    font-size-adjust: 100%;
+    font-weight: 400;
+    margin-top: 25px;
+    letter-spacing: 0;
+}
+.inteior {
+    display: flex;
+    display: -webkit-flex; 
+}
+.link {
+    display: flex;
+    width: 470px;
+    height: 470px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(255,255,255,0.5);
+    border-radius: 50%;
+
+
+}
+    
+    
+
